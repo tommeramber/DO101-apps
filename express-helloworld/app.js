@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  response = 'this is updated version (1) of the app';
+  response = 'this is updated version (2) of the app';
   res.send(response);
 });
 
